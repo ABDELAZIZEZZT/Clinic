@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/js/splide.min.js"
+        integrity="sha512-4TcjHXQMLM7Y6eqfiasrsnRCc8D/unDeY1UGKGgfwyLUCTsHYMxF7/UHayjItKQKIoP6TTQ6AMamb9w2GMAvNg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/css/themes/splide-default.min.css"
+        integrity="sha512-KhFXpe+VJEu5HYbJyKQs9VvwGB+jQepqb4ZnlhUF/jQGxYJcjdxOTf6cr445hOc791FFLs18DKVpfrQnONOB1g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css"
+        integrity="sha512-Z/def5z5u2aR89OuzYcxmDJ0Bnd5V1cKqBEbvLOiUNWdg9PQeXVvXLI90SE4QOHGlfLqUnDNVAYyZi8UwUTmWQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.rtl.min.css"
+        integrity="sha512-wO8UDakauoJxzvyadv1Fm/9x/9nsaNyoTmtsv7vt3/xGsug25X7fCUWEyBh1kop5fLjlcrK3GMVg8V+unYmrVA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet"  href="{{ asset('front') }}/assets/styles/pages/main.css>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="page-wrapper">
+        @include('front.layouts.nav')
+        <div class="container">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="fw-bold my-4 h4">
+                <ol class="breadcrumb justify-content-center">
+                    <li class="breadcrumb-item"><a class="text-decoration-none" href="../index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">doctors</li>
+                </ol>
+            </nav>
+            <div class="doctors-grid">
+                <div class="card p-2" style="width: 18rem;">
+                    <img src="../assets/images/major.jpg" class="card-img-top rounded-circle card-image-circle"
+                        alt="major">
+                    <div class="card-body d-flex flex-column gap-1 justify-content-center">
+                        <h4 class="card-title fw-bold text-center">Doctor Name</h4>
+                        <h6 class="card-title fw-bold text-center">Major</h6>
+                        <a href="./doctor.html" doctor.html" class="btn btn-outline-primary card-button">Book an
+                            appointment</a>
+                    </div>
+                </div>
+                <div class="card p-2" style="width: 18rem;">
+                    <img src="../assets/images/major.jpg" class="card-img-top rounded-circle card-image-circle"
+                        alt="major">
+                    <div class="card-body d-flex flex-column gap-1 justify-content-center">
+                        <h4 class="card-title fw-bold text-center">Doctor Name</h4>
+                        <h6 class="card-title fw-bold text-center">Major</h6>
+                        <a href="./doctor.html" doctor.html" class="btn btn-outline-primary card-button">Book an
+                            appointment</a>
+                    </div>
+                </div>
+                <div class="card p-2" style="width: 18rem;">
+                    <img src="../assets/images/major.jpg" class="card-img-top rounded-circle card-image-circle"
+                        alt="major">
+                    <div class="card-body d-flex flex-column gap-1 justify-content-center">
+                        <h4 class="card-title fw-bold text-center">Doctor Name</h4>
+                        <h6 class="card-title fw-bold text-center">Major</h6>
+                        <a href="./doctor.html" doctor.html" class="btn btn-outline-primary card-button">Book an
+                            appointment</a>
+                    </div>
+                </div>
+                <div class="card p-2" style="width: 18rem;">
+                    <img src="../assets/images/major.jpg" class="card-img-top rounded-circle card-image-circle"
+                        alt="major">
+                    <div class="card-body d-flex flex-column gap-1 justify-content-center">
+                        <h4 class="card-title fw-bold text-center">Doctor Name</h4>
+                        <h6 class="card-title fw-bold text-center">Major</h6>
+                        <a href="./doctor.html" doctor.html" class="btn btn-outline-primary card-button">Book an
+                            appointment</a>
+                    </div>
+                </div>
+                <div class="card p-2" style="width: 18rem;">
+                    <img src="../assets/images/major.jpg" class="card-img-top rounded-circle card-image-circle"
+                        alt="major">
+                    <div class="card-body d-flex flex-column gap-1 justify-content-center">
+                        <h4 class="card-title fw-bold text-center">Doctor Name</h4>
+                        <h6 class="card-title fw-bold text-center">Major</h6>
+                        <a href="./doctor.html" doctor.html" class="btn btn-outline-primary card-button">Book an
+                            appointment</a>
+                    </div>
+                </div>
+                <div class="card p-2" style="width: 18rem;">
+                    <img src="../assets/images/major.jpg" class="card-img-top rounded-circle card-image-circle"
+                        alt="major">
+                    <div class="card-body d-flex flex-column gap-1 justify-content-center">
+                        <h4 class="card-title fw-bold text-center">Doctor Name</h4>
+                        <h6 class="card-title fw-bold text-center">Major</h6>
+                        <a href="./doctor.html" doctor.html" class="btn btn-outline-primary card-button">Book an
+                            appointment</a>
+                    </div>
+                </div>
+                <div class="card p-2" style="width: 18rem;">
+                    <img src="../assets/images/major.jpg" class="card-img-top rounded-circle card-image-circle"
+                        alt="major">
+                    <div class="card-body d-flex flex-column gap-1 justify-content-center">
+                        <h4 class="card-title fw-bold text-center">Doctor Name</h4>
+                        <h6 class="card-title fw-bold text-center">Major</h6>
+                        <a href="./doctor.html" doctor.html" class="btn btn-outline-primary card-button">Book an
+                            appointment</a>
+                    </div>
+                </div>
+                <div class="card p-2" style="width: 18rem;">
+                    <img src="../assets/images/major.jpg" class="card-img-top rounded-circle card-image-circle"
+                        alt="major">
+                    <div class="card-body d-flex flex-column gap-1 justify-content-center">
+                        <h4 class="card-title fw-bold text-center">Doctor Name</h4>
+                        <h6 class="card-title fw-bold text-center">Major</h6>
+                        <a href="./doctor.html" doctor.html" class="btn btn-outline-primary card-button">Book an
+                            appointment</a>
+                    </div>
+                </div>
+                <div class="card p-2" style="width: 18rem;">
+                    <img src="../assets/images/major.jpg" class="card-img-top rounded-circle card-image-circle"
+                        alt="major">
+                    <div class="card-body d-flex flex-column gap-1 justify-content-center">
+                        <h4 class="card-title fw-bold text-center">Doctor Name</h4>
+                        <h6 class="card-title fw-bold text-center">Major</h6>
+                        <a href="./doctor.html" doctor.html" class="btn btn-outline-primary card-button">Book an
+                            appointment</a>
+                    </div>
+                </div>
+                <div class="card p-2" style="width: 18rem;">
+                    <img src="../assets/images/major.jpg" class="card-img-top rounded-circle card-image-circle"
+                        alt="major">
+                    <div class="card-body d-flex flex-column gap-1 justify-content-center">
+                        <h4 class="card-title fw-bold text-center">Doctor Name</h4>
+                        <h6 class="card-title fw-bold text-center">Major</h6>
+                        <a href="./doctor.html" doctor.html" class="btn btn-outline-primary card-button">Book an
+                            appointment</a>
+                    </div>
+                </div>
+                <div class="card p-2" style="width: 18rem;">
+                    <img src="../assets/images/major.jpg" class="card-img-top rounded-circle card-image-circle"
+                        alt="major">
+                    <div class="card-body d-flex flex-column gap-1 justify-content-center">
+                        <h4 class="card-title fw-bold text-center">Doctor Name</h4>
+                        <h6 class="card-title fw-bold text-center">Major</h6>
+                        <a href="./doctor.html" doctor.html" class="btn btn-outline-primary card-button">Book an
+                            appointment</a>
+                    </div>
+                </div>
+                <div class="card p-2" style="width: 18rem;">
+                    <img src="../assets/images/major.jpg" class="card-img-top rounded-circle card-image-circle"
+                        alt="major">
+                    <div class="card-body d-flex flex-column gap-1 justify-content-center">
+                        <h4 class="card-title fw-bold text-center">Doctor Name</h4>
+                        <h6 class="card-title fw-bold text-center">Major</h6>
+                        <a href="./doctor.html" doctor.html" class="btn btn-outline-primary card-button">Book an
+                            appointment</a>
+                    </div>
+                </div>
+
+
+            </div>
+            <nav class="mt-5" aria-label="navigation">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item">
+                        <a class="page-link page-prev" href="#" aria-label="Previous">
+                            <span aria-hidden="true">
+                                < </span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link page-next" href="#" aria-label="Next">
+                            <span aria-hidden="true"> > </span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    @include('front.layouts.footer')
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"
+        integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.min.js"
+        integrity="sha512-fHY2UiQlipUq0dEabSM4s+phmn+bcxSYzXP4vAXItBvBHU7zAM/mkhCZjtBEIJexhOMzZbgFlPLuErlJF2b+0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
